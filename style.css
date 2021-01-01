@@ -297,3 +297,10 @@ a{
         opacity: 100;
         }
 }
+
+@media (max-width:720px){
+	.myname{
+		font-size: 2em;
+	}
+}
+
