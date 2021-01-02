@@ -13,6 +13,11 @@
     <script src="https://kit.fontawesome.com/600c9b5d0a.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+
+
     <title>Varma</title>
   </head>
   <body>
@@ -24,14 +29,38 @@
   <div class="main">
   	<br>
   	<div class="container">
-  		<div class="card" style="width: 18rem;">
-  		<div class="card-body">
-    	<h5 class="card-title">Fill Forms</h5>
-    	<hr>
-    	<p class="card-text">Provide detailes using <br> Google forms.</p>
-    	<a href="https://docs.google.com/forms/d/e/1FAIpQLSeSS-mDLgL0BCrBq4b0B3MzY5fQoht8VMD5fruUqceUen_8Ug/viewform?usp=sf_link" class="btn btn-dark">Click here</a>
-  		</div>
-		</div>
+      <div class="alert alert-light" role="alert">
+        <b>Welcome</b>
+      </div>
+      <br>
+
+      <div class="row">
+        <div class="col-sm">
+          
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title"><i class="fa fa-pencil" aria-hidden="true"></i>&ensp;Fill Forms</h5>
+            <hr>
+            <p class="card-text">Provide detailes using <br> Google forms.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeSS-mDLgL0BCrBq4b0B3MzY5fQoht8VMD5fruUqceUen_8Ug/viewform?usp=sf_link" class="btn btn-light">Click here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          
+          <div>
+            <img class="svg" src="cogwheel.svg" width="150px" height="150px" alt="">
+    
+          </div>
+          
+        </div>
+        <div class="col-sm">
+          
+        </div>
+      </div>
+      <br>
+
+
 	</div>
   </div>
     
@@ -91,7 +120,11 @@
         </div>
       </div>
 </footer>
-
+<script type="text/javascript">
+  window.addEventListener('scroll', () => {
+    document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+  }, false);
+      </script>
 
 
     <!-- Optional JavaScript; choose one of the two! -->

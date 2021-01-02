@@ -33,7 +33,10 @@ body{
   height: 150vh;
 }
 
-
+.card{
+  background-image:linear-gradient(to right, rgb(96, 108, 136), rgb(63, 76, 107));
+  color:white;
+}
 /*footer*/
 
 a{
@@ -245,4 +248,22 @@ a{
 	.myname{
 		font-size: 2em;
 	}
+}
+
+
+
+
+.svg {
+  display: inline-block;
+  position: relative; /* make sure it stays put so we can see it! */
+
+  animation: rotate 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
 }
